@@ -21,4 +21,9 @@ target 'teststripeterminal' do
   #  post_install do |installer|
   #    flipper_post_install(installer)
   #  end
+
+  pod 'StripeTerminal', '1.4.0'
+
+  pod 'RNStripeTerminal', :path => '../node_modules/react-native-stripe-terminal'
+
 end

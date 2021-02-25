@@ -290,6 +290,10 @@ PODS:
     - React-Core
   - RNScreens (2.15.2):
     - React-Core
+  - RNStripeTerminal (1.1.0):
+    - React
+    - StripeTerminal
+  - StripeTerminal (1.4.0)
   - UMAppLoader (1.4.0)
   - UMBarCodeScannerInterface (5.4.0)
   - UMCameraInterface (5.4.0)
@@ -354,6 +358,8 @@ DEPENDENCIES:
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
+  - RNStripeTerminal (from `../node_modules/react-native-stripe-terminal`)
+  - StripeTerminal (= 1.4.0)
   - UMAppLoader (from `../node_modules/unimodules-app-loader/ios`)
   - UMBarCodeScannerInterface (from `../node_modules/unimodules-barcode-scanner-interface/ios`)
   - UMCameraInterface (from `../node_modules/unimodules-camera-interface/ios`)
@@ -372,6 +378,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - boost-for-react-native
+    - StripeTerminal
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -458,6 +465,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
     :path: "../node_modules/react-native-screens"
+  RNStripeTerminal:
+    :path: "../node_modules/react-native-stripe-terminal"
   UMAppLoader:
     :path: "../node_modules/unimodules-app-loader/ios"
   UMBarCodeScannerInterface:
@@ -531,6 +540,8 @@ SPEC CHECKSUMS:
   RNGestureHandler: 7a5833d0f788dbd107fbb913e09aa0c1ff333c39
   RNReanimated: e03f7425cb7a38dcf1b644d680d1bfc91c3337ad
   RNScreens: 3d682bcaba69a4f8e55543d90818704f34338db1
+  RNStripeTerminal: 9b092c3d0ece10927581866ef60be772c3fd1bcf
+  StripeTerminal: be33ec308dba387ce707bf08aafa90debf29ea7f
   UMAppLoader: 92d044af52626af3d81a69796ad666fc7a9a7d78
   UMBarCodeScannerInterface: 3f6c1b09ef4b867ce752b8c0b3893bcf9cd85f32
   UMCameraInterface: d516032121192fee9a6c93bdfff0bb2cc7282796
@@ -546,6 +557,6 @@ SPEC CHECKSUMS:
   UMTaskManagerInterface: 4c60b43eaf3cb05a164bc9113258a171c18b7bf7
   Yoga: 4bd86afe9883422a7c4028c00e34790f560923d6
 
-PODFILE CHECKSUM: 14a9d069bfaaec5fa02840bd997c2742ccdd0163
+PODFILE CHECKSUM: beff278bdc1e7c9215a7c528af0ca52c725b9b5a
 
 COCOAPODS: 1.10.1

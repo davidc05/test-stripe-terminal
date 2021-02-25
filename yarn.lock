@@ -6743,6 +6743,10 @@ react-native-screens@~2.15.0:
   resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-2.15.2.tgz#a449700e895b462937211ec72ed6f09652758f06"
   integrity sha512-CagNf2APXkVoRlF3Mugr264FbKbrBg9eXUkqhIPVeZB8EsdS8XPrnt99yj/pzmT+yJMBY0dGrjXT8+68WYh6YQ==
 
+"react-native-stripe-terminal@git+https://github.com/theopolisme/react-native-stripe-terminal.git":
+  version "1.1.0"
+  resolved "git+https://github.com/theopolisme/react-native-stripe-terminal.git#7d47798bc0935f2d7554f6112cd908796aacb72e"
+
 react-native-unimodules@~0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/react-native-unimodules/-/react-native-unimodules-0.12.0.tgz#f1c92eae92212ca44078c0991c78fa4d13fda0f8"

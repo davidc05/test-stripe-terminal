@@ -25,6 +25,7 @@
     "@babel/core": "~7.9.0",
     "babel-jest": "~25.2.6",
     "jest": "~25.2.6",
+    "react-native-stripe-terminal": "git+https://github.com/theopolisme/react-native-stripe-terminal.git",
     "react-test-renderer": "~16.13.1"
   },
   "jest": {
