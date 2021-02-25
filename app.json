@@ -1,0 +1,12 @@
+{
+  "name": "test-stripe-terminal",
+  "displayName": "test-stripe-terminal",
+  "expo": {
+    "name": "test-stripe-terminal",
+    "slug": "test-stripe-terminal",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
